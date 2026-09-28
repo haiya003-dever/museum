@@ -1,0 +1,4 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4039],{14039:function(e,t,n){n.r(t);var s=n(85893),o=n(67294),u=n(11163),c=n(4298),l=n.n(c),a=n(4316);let r=`
+		void function() {
+		}()
+`,isNotEmptyObject=e=>e&&Object.keys(e).length;t.default=function(e){let{pageView:t,readContent:n,virtualPageview:c}=e,f=(0,u.useRouter)();(0,o.useEffect)(()=>{isNotEmptyObject(t)&&(0,a.zz)(t),isNotEmptyObject(n)&&(0,a.zz)(n)},[t,n,c]);let i=(0,o.useCallback)(()=>{isNotEmptyObject(c)&&(0,a.zz)(c)},[c]);return(0,o.useEffect)(()=>(f.events.on("routeChangeComplete",i),()=>{f.events.off("routeChangeComplete",i)}),[i,f.events]),(0,s.jsx)(l(),{id:"script-tracking-onload",strategy:"lazyOnload",dangerouslySetInnerHTML:{__html:r}})}}}]);

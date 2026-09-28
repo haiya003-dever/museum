@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박물관</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gugi&family=Song+Myung&family=Syne+Tactile&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" class="css" />
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+  <script src="js/jquery-4.0.0.min.js"></script>
+  <body>
+    <header>
+      <div class="show">
+        <div class="left">
+          <i class="fa-solid fa-bars"></i>
+          <div>메뉴</div>
+        </div>
+        <div class="left02">
+          <i class="fa-solid fa-xmark"></i>
+          닫기
+        </div>
+        <h1><a href="index.html">museum</a></h1>
+        <div class="right">
+          <div class="wrap">
+            <div><a href="#">로그인</a></div>
+            <div class="lang">KO <i class="fa-solid fa-angle-down"></i></div>
+            <div class="reservation"><a href="#">예약하기</a></div>
+          </div>
+          <ul>
+            <li><a href="#">KO</a></li>
+            <li><a href="#">EN</a></li>
+            <li><a href="#">CN</a></li>
+            <li><a href="#">JP</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hidden">
+        <div class="list">
+          <ul class="first">
+            <li><a href="#">관람정보</a></li>
+            <li><a href="#">관람안내</a></li>
+            <li><a href="#">전시해설</a></li>
+            <li><a href="#">예약하기</a></li>
+            <li><a href="#">관람·편의시설</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">전시</a></li>
+            <li><a href="#">상설 전시</a></li>
+            <li><a href="#">특별 전시</a></li>
+            <li><a href="#">온라인 전시관</a></li>
+            <li><a href="#">전시도록</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">소장품</a></li>
+            <li><a href="#">큐레이터 추천 소장품</a></li>
+            <li><a href="#">소장품 검색</a></li>
+            <li><a href="#">소장품 열람·복제</a></li>
+            <li><a href="#">소장품 대여 안내</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">새소식</a></li>
+            <li><a href="#">공지</a></li>
+            <li><a href="#">프로그램</a></li>
+            <li><a href="#">언론뉴스</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">박물관 소개</a></li>
+            <li><a href="#">인삿말</a></li>
+            <li><a href="#">비전과 전략</a></li>
+            <li><a href="#">조직 및 업무</a></li>
+            <li><a href="#">시설 소개</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="visual">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/1.jpg" alt="근대주화압인기" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/la-salle-des-cariatides-vue-sur-la-diane-de-versailles.webp"
+              alt="루브르박물관"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/starrynight.webp" alt="별이 빛나는 밤" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/namdaemun.webp" alt="숭례문" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- <ul class="txt">
+        <li>
+          <div>Date</div>
+          <p>1886년 (고종 23년)</p>
+        </li>
+        <li>
+          <div>Location</div>
+          <p>대전화폐박물관</p>
+        </li>
+        <li>
+          <div>Name</div>
+          <p>근대주화 압인기</p>
+        </li>
+      </ul> -->
+    </div>
+    <div id="container">
+      <section id="con1">
+        <ul class="art1">
+          <li>
+            <img src="img/art1.jpg" alt="작품" />
+          </li>
+
+          <li><img src="img/art3.jpeg" alt="반고흐 자화상" /></li>
+        </ul>
+        <div class="art2">
+          <div class="pic">
+            <h2>소장처별 미술 작품</h2>
+            <p>
+              국립 중앙박물관, 시카고 미술관, 루브르 박물관 등 세계 미술관 등
+              세계 미술관에서 소장하고 있는 작품을 감상해보세요.
+            </p>
+          </div>
+          <img src="img/art2.jpg" alt="루브를박물관외관" />
+        </div>
+      </section>
+      <section id="con2">
+        <div class="wrap01">
+          <div class="overview">Overview</div>
+          <div class="wrap02">
+            <div class="part1">
+              <img src="img/louvre.jpg" alt="루브르 박물관 내실" />
+              <p>
+                밀로의 비너스는 기원전 130~100년경 제작된 것으로 알려져 있으며,
+                헬레니즘 조각 예술의 아름다움과 역동성을 보여주는 대표작으로
+                평가받습니다.
+              </p>
+              <div class="circle">
+                <div class="white"></div>
+                <img src="img/text-louvre.png" alt="루브르박물관을 적은 글자" />
+              </div>
+
+              <div class="more"><a href="#">view more</a></div>
+            </div>
+
+            <div class="part2">
+              <h2>Musée <br />du <br />Louvre</h2>
+              <p>
+                프랑스 파리에 위치한 루브르 박물관은 세계 최대 규모의
+                미술관으로, 수만 점의 예술 작품을 소장하고 있으며 인류
+                문화유산의 보고로 불립니다.
+              </p>
+              <img src="img/venus.jpg" alt="밀로의 비너스" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="con3">
+        <div class="txt02">
+          <h2>National Museum<br />of Korea</h2>
+          <p>
+            국립중앙박물관은 대한민국의 문화유산을 체계적으로 보존 관리하고
+            연구하면서 전시와 교육을 통해 그 가치를 국내외에 널리 알리는
+            문화기관입니다. 시대와 주제별로 구성된 7개의 상설전시관, 다양한
+            내용을 선보이는 특별전시관, 관람의 이해를 돕는 전시해설 프로그램,
+            오감으로 즐기고 배우는 어린이박물관, 다채로운 교육 프로그램,
+            첨단기술을 활용한 실감콘텐츠 등은 누구나 쉽게 역사와 문화를 보고,
+            듣고, 배우고, 느낄 수 있도록 설계되어 있습니다.
+          </p>
+          <div class="more"><a href="#">view more</a></div>
+        </div>
+        <ul class="img02">
+          <li><img src="img/2.jpg" alt="박물관 전시실" /></li>
+          <li><img src="img/5.jpg" alt="박물관 전시실2" /></li>
+        </ul>
+      </section>
+      <section id="con4">
+        <ul>
+          <li class="txt03">
+            <div class="txt05">
+              <h2>National Iksan Museum</h2>
+              <p>
+                국립익산박물관은 우리나라의 다양한 문화재와 여러 유물을
+                상시전시와
+                <br />여러 공연을 통해 관객들에게 색다른 경험을 제공합니다.
+              </p>
+
+              <div class="more"><a href="#">view more</a></div>
+            </div>
+          </li>
+          <li><img src="img/4.jpg" alt="문화재" /></li>
+          <li class="txt04">
+            <div class="txt06">
+              <h2>
+                역사.<br />
+                전시품.<br />
+                역사문화실.
+              </h2>
+              <p>가족·친구와 함께 우리나라 문화유산을 체험해보세요.</p>
+              <div class="more"><a href="#">view more</a></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="con5">
+        <ul>
+          <li>
+            <a href="#">
+              <p>전시 일정</p>
+              <i class="fa-regular fa-calendar"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+              <p>교육</p>
+              <i class="fa-solid fa-chalkboard-user"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+              <p>자료·학술</p>
+              <i class="fa-brands fa-readme"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+              <p>오시는 길</p>
+              <i class="fa-solid fa-map-location-dot"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+              <p>자주 묻는 <br />질문</p>
+              <i class="fa-regular fa-circle-question"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#">
+              <p>고객센터</p>
+              <i class="fa-solid fa-phone"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section id="con6">
+        <div class="wrap05">
+          <div class="txt7">
+            <div class="wrap03">
+              <a href="#">
+                <h2>아트 앤 컬쳐</h2>
+                <h3>ART & CULTURE</h3></a
+              >
+            </div>
+            <ul>
+              <li>대표자명: 황인영</li>
+              <li>주소: 서울특별시 동대문구 천호대로 391, 15층 1507호</li>
+              <li>대표 번호: 02-6217-8008</li>
+              <li>대표 메일: art_n_culture@naver.com</li>
+              <li>사업자등록번호: 317-87-03075</li>
+            </ul>
+          </div>
+          <div class="flower">
+            <img src="img/flower.png" alt="꽃 그림" />
+            <div>
+              <ul class="text">
+                <li>
+                  <a href="#">
+                    공지사항
+                    <i class="fa-solid fa-angles-right"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    문의하기
+                    <i class="fa-solid fa-angles-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="wrap04">
+          <div class="left03">
+            Follow us
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-threads"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="center">
+            Copyright ART&CULTURE Inc. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        loop: true,
+        effect: "fade",
+        autoplay: {
+          delay: 25000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      $(".left").on("click", function () {
+        $(".hidden").slideDown();
+        $(".left02").show();
+        $(".left").hide();
+      });
+      $(".left02").on("click", function () {
+        $(".hidden").hide();
+        $(".left").show();
+        $(".left02").hide();
+      });
+      $(".right .lang").on("click", function () {
+        $(".right ul").toggle();
+      });
+      $();
+    </script>
+  </body>
+</html>

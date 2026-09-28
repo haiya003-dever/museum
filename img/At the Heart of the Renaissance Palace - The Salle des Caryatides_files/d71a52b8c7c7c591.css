@@ -1,0 +1,1 @@
+.CenteredLayout_content{margin:0 auto}@media(min-width:820px){.CenteredLayout_small{width:calc(var(--column-unit) * 6 - var(--grid-gap))}.CenteredLayout_medium{width:calc(var(--column-unit) * 8 - var(--grid-gap))}.CenteredLayout_big{width:calc(var(--column-unit) * 10 - var(--grid-gap))}}.CenteredLayout_layout .CenteredLayout_content>:not(:last-child){margin-bottom:48px}
