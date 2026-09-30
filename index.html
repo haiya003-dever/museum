@@ -28,16 +28,16 @@
       <div class="show">
         <div class="left">
           <i class="fa-solid fa-bars"></i>
-          <div>메뉴</div>
+          <div class="menu">메뉴</div>
         </div>
         <div class="left02">
           <i class="fa-solid fa-xmark"></i>
-          닫기
+          <div class="close">닫기</div>
         </div>
         <h1><a href="index.html">museum</a></h1>
         <div class="right">
           <div class="wrap">
-            <div><a href="#">로그인</a></div>
+            <div class="login"><a href="#">로그인</a></div>
             <div class="lang">KO <i class="fa-solid fa-angle-down"></i></div>
             <div class="reservation"><a href="#">예약하기</a></div>
           </div>
@@ -113,20 +113,6 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
-      <!-- <ul class="txt">
-        <li>
-          <div>Date</div>
-          <p>1886년 (고종 23년)</p>
-        </li>
-        <li>
-          <div>Location</div>
-          <p>대전화폐박물관</p>
-        </li>
-        <li>
-          <div>Name</div>
-          <p>근대주화 압인기</p>
-        </li>
-      </ul> -->
     </div>
     <div id="container">
       <section id="con1">
@@ -145,7 +131,7 @@
               세계 미술관에서 소장하고 있는 작품을 감상해보세요.
             </p>
           </div>
-          <img src="img/art2.jpg" alt="루브를박물관외관" />
+          <img src="img/art2.jpg" alt="루브르박물관외관" />
         </div>
       </section>
       <section id="con2">
@@ -346,18 +332,17 @@
       });
       $(".left").on("click", function () {
         $(".hidden").slideDown();
-        $(".left02").show();
         $(".left").hide();
+        $("header .left02").addClass("on");
       });
-      $(".left02").on("click", function () {
+      $("header .left02").on("click", function () {
         $(".hidden").hide();
         $(".left").show();
-        $(".left02").hide();
+        $("header .left02").removeClass("on");
       });
       $(".right .lang").on("click", function () {
         $(".right ul").toggle();
       });
-      $();
     </script>
   </body>
 </html>
