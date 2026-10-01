@@ -16,7 +16,7 @@ a {
   width: 100%;
   height: 100%;
 }
-@media (min-width: 300px) and (max-width: 500px) {
+@media (max-width: 500px) {
   html,
   body {
     position: relative;
@@ -386,7 +386,7 @@ a {
     text-align: center;
     line-height: 70px;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     backface-visibility: hidden;
     left: 0px;
@@ -401,7 +401,7 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -446,6 +446,7 @@ a {
     font-size: 30px;
     letter-spacing: -5px;
   }
+
   #con6 .txt7 ul {
     margin-top: 20px;
     color: #ccc;
@@ -466,10 +467,6 @@ a {
     color: #ccc;
   }
 
-  footer .wrap03 {
-    text-align: center;
-    margin: 0px auto;
-  }
   footer .wrap04 {
     width: 100%;
     display: flex;
@@ -886,7 +883,7 @@ a {
     text-align: center;
     line-height: 70px;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     backface-visibility: hidden;
     left: 0px;
@@ -901,7 +898,7 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -1380,7 +1377,7 @@ a {
     text-align: center;
     line-height: 80px;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #add2ff;
+    box-shadow: 5px 5px 3px #6b86a8;
     position: absolute;
     backface-visibility: hidden;
     left: 0px;
@@ -1395,7 +1392,7 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -1543,8 +1540,8 @@ a {
     font-family: "Syne Tactile", system-ui;
   }
   header .reservation {
-    background-color: black;
-    color: white;
+    background-color: #add2ff;
+    color: #000;
     border-radius: 30px;
     height: 40px;
     width: 100px;
@@ -1870,7 +1867,7 @@ a {
     text-align: center;
     line-height: 100px;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     backface-visibility: hidden;
     left: 0px;
@@ -1885,7 +1882,7 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px #add2ff;
+    box-shadow: 5px 5px 5px #6b86a8;
     position: absolute;
     left: 0px;
     top: 0px;
