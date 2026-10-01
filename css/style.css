@@ -465,8 +465,10 @@ a {
     background-color: #333;
     color: #ccc;
   }
+
   footer .wrap03 {
     text-align: center;
+    margin: 0px auto;
   }
   footer .wrap04 {
     width: 100%;
@@ -483,6 +485,9 @@ a {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+  }
+  footer .center {
+    text-align: center;
   }
 }
 
